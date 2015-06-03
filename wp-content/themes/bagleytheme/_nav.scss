@@ -1,7 +1,7 @@
 .menu{
-    position: fixed;
-    top: 1%;
-    right: 10%;
+    // position: fixed;
+    // top: 1%;
+    // right: 10%;
 }
 .menu ul{
   display: flex;
@@ -11,19 +11,20 @@
 
 .menu ul li a{
   padding:12px;
-  color:#FBAF3C;
-  border: 1px solid #FBAF3C;
+  color:#fff;
+  // border: 1px solid #fff;
   transition: all .5s;
 }
-.menu ul li a:hover{
-  color:#B3B4B4;
-  border:1px solid #B3B4B4;
-}
+
 
 .container h1{
   background: url(img/nigel_1x1.jpg) no-repeat;
   width: 200px;
   text-indent: -999999px;
   margin: 0;
-  height: 165px;
+  height: 70px;
+}
+
+header{
+  background:#FBAF3C;
 }

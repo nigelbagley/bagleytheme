@@ -47,7 +47,7 @@ body {
 }
 
 .container {
-  max-width:1200px;
+  max-width:1100px;
   margin:0 auto;
 }
 
@@ -142,6 +142,8 @@ pre {
 
 footer {
   clear:both;
+  background:#FBAF3C;
+  margin-top: 5%;
 }
 
 
@@ -151,16 +153,18 @@ footer {
   ul.menu {
     margin:0;
     padding:0;
+    display: flex;
   }
     ul.menu li {
-      display:inline;
+      display:flex;
+      flex-direction: row;
       margin-right: 10px;
     }
 
       ul.menu li a {
         color:#333;
         padding:10px;
-        background:#333;
+        /*background:#333;*/
         color:white;
       }
 
@@ -294,5 +298,9 @@ p.form-allowed-tags, .nocomments { display:none; }
 #respond p, #comments-list ul #respond { margin:0; }
 
 
-/*New CSS*/
+/*SASS*/
 @import "_nav.scss";
+@import "_homePage.scss";
+@import "_aboutPage.scss";
+
+

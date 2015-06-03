@@ -1,0 +1,38 @@
+.summary{
+	/* background-image: url(img/heroImage.jpg); */
+	height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+  
+ }
+
+ .items{
+ 	
+ 	margin: 0 auto;
+ 	.item{
+ 		  width: 33.33%;
+ 		  float: left;
+ 	}
+ }
+
+ .wrapper{
+ 	width: 800px;
+ 	margin: 0 auto;
+ }
+
+ .flexContainer{
+ 	display: flex;
+ 	align-items:center;
+ 	justify-content: space-between;
+
+ }
+
+ .bio{
+ 	padding: 27px;
+ 	border: 1px solid #FBAF3C;
+ 	align-items: center;
+ 	justify-content:center;
+ 	margin: auto;
+ 	display: flex;
+ }

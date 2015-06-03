@@ -1,6 +1,15 @@
 <footer>
-  <div class="container">
+  <div class="container flexContainer">
+  
     <p>&copy; Nigel Bagley <?php echo date('Y'); ?></p>
+    <img src="<?php bloginfo('template_directory') ?>/img/nigel_1x1.jpg" height="72" width="72" alt="">
+    <div class="social-icons">
+	    <i class="fa fa-facebook-official"></i>
+	    <i class="fa fa-instagram"></i>
+	    <i class="fa fa-twitter-square"></i>
+    </div>
+ 
+
   </div>
 </footer>
 
