@@ -16,7 +16,7 @@ get_header();  ?>
 					the_post();
 					?>
 
-					<div class="wrapper">
+					<div class="wrapper flex">
 						<?php  
 						$portolioArgs = array('post_type' => 'portfolio');
 						$portfolioQuery = new WP_Query($portolioArgs);
@@ -26,15 +26,20 @@ get_header();  ?>
 								$portfolioQuery->the_post();
 								?>
 									<div class="portfolio-items">
-										<h4><?php the_title(); ?></h4>
-										<h4><?php the_field('name'); ?></h4>
-										<h4><?php the_field('short_desc'); ?></h4>
-										<h4><?php the_field('long_desc'); ?></h4>
-										
+									<div class="portfolio-image">
 										<?php while( has_sub_field('images') ): ?>
 										  <?php $image = get_sub_field('image'); ?>
-										 <img src="<?php echo $image['sizes']['square'] ?>">
+										 	<img src="<?php echo $image['sizes']['square'] ?>">
 										<?php endwhile; ?>
+									</div>
+									<div class="portfolio-content">
+										<h4><?php the_title(); ?></h4>
+										
+										<p><?php the_field('short_desc'); ?></p>
+										<a href="#"><?php the_field('button'); ?></a>
+
+										
+									</div>
 									</div>	
 									
 									
