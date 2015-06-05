@@ -1,4 +1,34 @@
 .portfolio-items{
 	display: flex;
 	align-items:center;
+	// margin-top: 10%;
+	max-width: 33.33%;
+	flex-wrap: wrap;
 }
+
+.portfolio-content{
+	border: 1px solid orange;
+	margin:5px;
+	flex-direction: column;
+	padding-bottom:19px;
+	background:#fff;
+	h4{
+		margin:0;
+		padding: 11px;
+		font-size: 23px;
+	}
+	p{
+		padding: 11px;
+	}
+	a{
+		background-color: #FBAF3C;
+		padding: 10px;
+		color: #fff;
+		margin-left: 5px;
+		&:hover{
+		background: #B3B4B4;
+	}
+	}
+
+}
+

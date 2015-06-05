@@ -12,7 +12,7 @@ function theme_setup() {
 	*  sizes with add_image_size. */
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size(120, 90, true);
-	add_image_size('square', 1000, 1000, true);
+	add_image_size('square', 150, 150, true);
 
 
 	// Add default posts and comments RSS feed links to head
@@ -42,6 +42,8 @@ add_action( 'after_setup_theme', 'theme_setup' );
 /* Add all our JavaScript files here.
 We'll let WordPress add them to our templates automatically instead
 of writing our own script tags in the header and footer. */
+
+
 
 function hackeryou_scripts() {
 

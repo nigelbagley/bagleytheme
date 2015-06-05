@@ -25,24 +25,23 @@ get_header();  ?>
 							while($portfolioQuery->have_posts()){
 								$portfolioQuery->the_post();
 								?>
-									<div class="portfolio-items">
-									<div class="portfolio-image">
-										<?php while( has_sub_field('images') ): ?>
-										  <?php $image = get_sub_field('image'); ?>
-										 	<img src="<?php echo $image['sizes']['square'] ?>">
-										<?php endwhile; ?>
-									</div>
-									<div class="portfolio-content">
-										<h4><?php the_title(); ?></h4>
-										
-										<p><?php the_field('short_desc'); ?></p>
-										<a href="#"><?php the_field('button'); ?></a>
 
-										
-									</div>
+									<div class="portfolio-items">
+									
+										<div class="portfolio-content">
+
+										<?php while( has_sub_field('images') ): ?>
+											  <?php $image = get_sub_field('image'); ?>
+											 	<img src="<?php echo $image['sizes']['square'] ?>">
+											<?php endwhile; ?>
+
+											<h4><?php the_title(); ?></h4>
+											<p><?php the_field('short_desc'); ?></p>
+											<a href=""><?php the_field('button'); ?></a>
+										</div>
 									</div>	
 									
-									
+					
 								<?php
 							}
 							// End of while loop

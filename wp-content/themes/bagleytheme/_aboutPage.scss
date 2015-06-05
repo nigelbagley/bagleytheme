@@ -1,6 +1,28 @@
 .about-picture{
 	margin-top: 10%;
-	margin-bottom: 10%;
+	background-size: cover;
+	height: 75vh;
+	img{
+	-webkit-filter: grayscale(1);
+	  filter: grayscale(1);
+	  }
+	  h2{
+	  	text-transform: uppercase;
+	  	text-align: left;
+	  	margin: 0;
+	  	padding: 0;
+	  	line-height: .8;
+	  	font-size: 100px;
+	  }
+	  h3{
+	  	text-transform: uppercase;
+	  	text-align: left;
+	  	margin: 0;
+	  	font-weight: 500;
+	  	padding: 0;
+	  	line-height: .8;
+	  	font-size: 50px;
+	  }
 }
 
 .down-arrow{
@@ -8,18 +30,27 @@
 	margin: auto;
 	justify-content: center;
 	.fa{
-		color:#FBAF3C;
+		color:#B3B4B4;
 	}
 }
 
 .about-me{
 
 	h2{
+
+		letter-spacing: 2px;
 		font-size: 122px;
+		font-weight: 700;
 		margin: 0;
 	}
 	h3{
-		font-size: 60px;
+		font-size: 52px;
+		letter-spacing: 2px;
 		margin: 0;
+		padding:0;
+		font-weight: 500;
+	}
+	p{
+		font-size: 25px;
 	}
 }
