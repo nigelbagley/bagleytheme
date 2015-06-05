@@ -39,16 +39,17 @@ get_header();  ?>
 
   	      	</div>
   	      </section>
+		<section class="grey">
+	  	      <section  class="wrapperImg padding">
+	  	      	
+	  			<div id="#about" class="about-me">
+	  				<h2><?php the_field('headline_two') ?></h2>
+	  				<p><?php the_field('paragraph') ?></p>
 
-  	      <section  class="wrapperImg padding">
-  	      	
-  			<div id="#about" class="about-me">
-  				<h2><?php the_field('headline_two') ?></h2>
-  				<p><?php the_field('paragraph') ?></p>
+	  			</div>
 
-  			</div>
-
-  	      </section>
+	  	      </section>
+  	     </section>
 
   	    <?php endwhile; // end the loop?>
   	  
