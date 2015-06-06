@@ -2,6 +2,10 @@
 	margin-top: 10%;
 	background-size: cover;
 	height: 75vh;
+	@media screen and (max-width:400px){
+       		height:none;
+       		background-size: none;
+     	}
 	img{
 	-webkit-filter: grayscale(1);
 	  filter: grayscale(1);
@@ -13,6 +17,9 @@
 	  	padding: 0;
 	  	line-height: .8;
 	  	font-size: 100px;
+	  	@media screen and (max-width:400px){
+       		font-size: 80px;
+     	}
 	  }
 	  h3{
 	  	text-transform: uppercase;
@@ -22,6 +29,9 @@
 	  	padding: 0;
 	  	line-height: .8;
 	  	font-size: 45px;
+	  	@media screen and (max-width:400px){
+       		font-size: 25px;
+     	}
 	  }
 }
 
@@ -46,6 +56,11 @@
 		font-size: 122px;
 		font-weight: 700;
 		margin: 0;
+		line-height: 80px;
+		@media screen and (max-width:400px){
+       		font-size: 80px;
+       		padding: 25px;
+     	}
 	}
 	h3{
 		font-size: 52px;
@@ -53,11 +68,16 @@
 		margin: 0;
 		padding:0;
 		font-weight: 500;
+		@media screen and (max-width:400px){
+       		font-size: 80px;
+       		// padding: 25px;
+     	}
 	}
 	p{
 		font-size: 25px;
-		// -webkit-column-count: 2;
-		// -moz-column-count: 2;
-		// column-count: 2;
+		@media screen and (max-width:400px){
+       		font-size: 25px;
+       		padding: 25px;
+     	}
 	}
 }

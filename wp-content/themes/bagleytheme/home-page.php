@@ -55,7 +55,7 @@ get_header();  ?>
   	  
 
   
-     <section id="portfolio" class="items orange padding">
+   <section id="portfolio" class="items orange padding">
 	<div class="wrapper portfolio">
 		<h3>Portfolio</h3>
 	</div>
@@ -111,8 +111,16 @@ get_header();  ?>
     <section id="contact" class="contact padding">
 		<div class="wrapper">
 		<h3>Contact</h3>
-			<?php the_content(); ?>
-		</div>
+    <div class="flexContact">
+      <div class="contact-paragraph">
+        <p class="fifty"><?php the_field('paragraph_two'); ?></p>
+
+        <h4><?php the_field('live_link_contact'); ?></h4>
+    </div>
+      <div class="form">
+       <?php the_content(); ?>
+      </div>
+    </div>
 	</section>
 
 

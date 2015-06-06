@@ -7,8 +7,23 @@
 
 	align-items:center;
 	// margin-top: 10%;
-	max-width: 33.33%;
+	max-width: 50%;
 	flex-wrap: wrap;
+	@media screen and (max-width:800px){
+	// flex-direction:row;
+	max-width: 100%;
+
+	}
+}
+
+.portfolio{
+		h3{
+			@media screen and (max-width:400px){
+	       		font-size: 80px;
+	       		padding: 25px;
+	     	}
+		}
+
 }
 
 .portfolio-content{
@@ -16,6 +31,7 @@
 	margin:5px;
 	flex-direction: column;
 	background:#fff;
+	display: flex;
 	padding: 16px;
 	h4{
 		margin:0;
@@ -25,14 +41,18 @@
 	p{
 		padding: 11px;
 		font-size: 14px;
+		margin:0;
 	}
 	a{
 		background-color: #FBAF3C;
 		padding: 10px;
 		color: #fff;
 		margin-left: 5px;
+		text-align: center;
+		transition: all .5s;
 		&:hover{
 		background: #B3B4B4;
+
 	}
 
 	}

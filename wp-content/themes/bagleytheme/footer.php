@@ -1,5 +1,5 @@
 <footer>
-  <div class="container flexContainer">
+  <div class="container flexContainer flex">
   
     <p>&copy; Nigel Bagley <?php echo date('Y'); ?></p>
      <a href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

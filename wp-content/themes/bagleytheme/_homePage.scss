@@ -146,4 +146,75 @@ span{
 }
 .main{
 	margin-top: 124px;
+	@media screen and (max-width:400px){
+	  margin-top: 150px;
+	}
 }
+
+// Contact Starts
+
+.contact-word{
+	width: 50%;
+	float: left;
+	margin-right: 10%;
+}
+
+.form{
+	float: left;
+	@media screen and (max-width:400px){
+       		padding: 7px;
+     	}
+}
+
+.flexContact{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	/* align-items: center; */
+	justify-content: space-between;
+	@media screen and (max-width:800px){
+       		flex-direction:column;
+     	}
+	
+}
+.contact{
+	h3{
+		@media screen and (max-width:400px){
+       		font-size: 80px;
+       		padding: 25px;
+     	}
+	}
+}
+.contact-paragraph{
+	h4{
+		text-transform: uppercase;
+		margin: 0;
+		@media screen and (max-width:400px){
+       		font-size: 18px;
+			padding: 25px;
+     	}
+	}
+	a{
+		color:#FBAF3C;
+		&:hover{
+			color:#000000;
+		}
+	}
+}
+.fifty{
+		// width: 50%;
+		margin:0;
+		@media screen and (max-width:400px){
+       		padding: 25px;
+       		font-size: 25px;
+     	}
+}
+
+.fa-envelope-o{
+	margin-right: 12px;
+}
+
+
+// Contact Ends
