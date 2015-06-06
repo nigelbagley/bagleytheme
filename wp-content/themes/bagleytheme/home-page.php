@@ -19,14 +19,14 @@ get_header();  ?>
   	      		<div class="image">
   	      		<h2><?php the_field('headline') ?></h2>
   				<h3><?php the_field('subhead') ?></h3>
-  				<div class="social-icons-top">
+  			<!-- 	<div class="social-icons-top">
 					<a href="#"><i class="fa fa-facebook-official fa-2x"></i></a>
 					<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
 					<a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
 					<a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
 					<a href="#"><i class="fa fa-github-square fa-2x"></i></a>
 					<a href="#"><i class="fa fa-medium fa-2x"></i></a>
-				</div>
+				</div> -->
 
   	      		<img src="<?php bloginfo('template_directory') ?>/img/me_2.jpg" " alt="">
   	      		</div>
@@ -42,7 +42,7 @@ get_header();  ?>
 		<section class="grey">
 	  	      <section  class="wrapperImg padding">
 	  	      	
-	  			<div id="#about" class="about-me">
+	  			<div id="about" class="about-me">
 	  				<h2><?php the_field('headline_two') ?></h2>
 	  				<p><?php the_field('paragraph') ?></p>
 
@@ -55,7 +55,7 @@ get_header();  ?>
   	  
 
   
-     <section id="#portfolio" class="items orange padding">
+     <section id="portfolio" class="items orange padding">
 	<div class="wrapper portfolio">
 		<h3>Portfolio</h3>
 	</div>
@@ -108,7 +108,7 @@ get_header();  ?>
 
       ?>
 </section>
-    <section id="#contact" class="contact padding">
+    <section id="contact" class="contact padding">
 		<div class="wrapper">
 		<h3>Contact</h3>
 			<?php the_content(); ?>

@@ -4,7 +4,7 @@
 	<?php // Load Meta ?>
   <meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?php  wp_title('|', true, 'right'); ?></title>
+  <title>Nigel Bagley | Front-End Web Devloper</title>
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 <link href='http://fonts.googleapis.com/css?family=Hind:700,500|Open+Sans:400,600' rel='stylesheet' type='text/css'>
@@ -27,7 +27,7 @@
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <header>
   <div class="container flexContainer">
-  <a href="#index.php"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <a href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      width="72px" height="72px" viewBox="0 0 72 72" enable-background="new 0 0 72 72" xml:space="preserve">
   <path fill="#FFFFFF" d="M57.938,43.569c0-3.401-1.066-6.309-3.203-8.725c-2.135-2.416-4.947-3.623-7.939-3.623
     c-0.483,0-0.795,0.047-1.795,0.143V16H35v27.166c0-3.493-0.445-6.218-2.078-8.175c-2.027-2.435-4.518-3.799-7.843-3.869L25.267,31

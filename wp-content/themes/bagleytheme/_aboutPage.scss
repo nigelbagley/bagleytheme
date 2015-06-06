@@ -26,7 +26,11 @@
 }
 
 .down-arrow{
-	display: flex;
+	display: -webkit-box;
+	 display: -moz-box;
+	 display: -ms-flexbox;
+	 display: -webkit-flex;
+	 display: flex;
 	margin: auto;
 	justify-content: center;
 	.fa{
@@ -52,5 +56,8 @@
 	}
 	p{
 		font-size: 25px;
+		// -webkit-column-count: 2;
+		// -moz-column-count: 2;
+		// column-count: 2;
 	}
 }

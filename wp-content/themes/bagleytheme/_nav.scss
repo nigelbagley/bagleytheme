@@ -4,7 +4,11 @@
     // right: 10%;
 }
 .menu ul{
-  display: flex;
+  display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
   padding: 0;
   list-style: none;
 }
@@ -27,4 +31,8 @@
 
 header{
   background:#FBAF3C;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999999999;
 }

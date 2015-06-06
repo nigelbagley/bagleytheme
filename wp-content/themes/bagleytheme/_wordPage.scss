@@ -1,5 +1,10 @@
 .portfolio-items{
-	display: flex;
+	display: -webkit-box;
+	 display: -moz-box;
+	 display: -ms-flexbox;
+	 display: -webkit-flex;
+	 display: flex;
+
 	align-items:center;
 	// margin-top: 10%;
 	max-width: 33.33%;
@@ -10,8 +15,8 @@
 	border: 1px solid orange;
 	margin:5px;
 	flex-direction: column;
-	padding-bottom:19px;
 	background:#fff;
+	padding: 16px;
 	h4{
 		margin:0;
 		padding: 11px;
@@ -19,6 +24,7 @@
 	}
 	p{
 		padding: 11px;
+		font-size: 14px;
 	}
 	a{
 		background-color: #FBAF3C;
@@ -28,7 +34,11 @@
 		&:hover{
 		background: #B3B4B4;
 	}
+
 	}
 
+}
+.portfolio-content img{
+	width: 100%;
 }
 
