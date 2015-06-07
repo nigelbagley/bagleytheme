@@ -4,9 +4,12 @@
 	 display: -ms-flexbox;
 	 display: -webkit-flex;
 	 display: flex;
-	flex-wrap: wrap;
-	flex-direction:row;
+	-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+	flex-direction: row;
+		-webkit-flex-direction: row;
 	@media screen and (max-width:400px){
        		flex-direction:column;
+       		-webkit-flex-direction: column;
      	}
 }

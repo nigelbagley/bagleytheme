@@ -153,6 +153,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  
   @media screen and (max-width:400px){
           position: relative;
       }
@@ -172,6 +173,7 @@ footer {
      display: flex;
      @media screen and (max-width:400px){
        flex-direction:column;
+       -webkit-flex-direction: column;
      }
   }
     ul.menu li {
@@ -181,6 +183,7 @@ footer {
        display: -webkit-flex;
        display: flex;
       flex-direction: row;
+      -webkit-flex-direction: row;
       margin-right: 10px;
      
     }

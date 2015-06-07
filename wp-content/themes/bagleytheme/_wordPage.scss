@@ -8,6 +8,7 @@
 	align-items:center;
 	// margin-top: 10%;
 	max-width: 50%;
+	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 	@media screen and (max-width:800px){
 	// flex-direction:row;
@@ -19,7 +20,7 @@
 .portfolio{
 		h3{
 			@media screen and (max-width:400px){
-	       		font-size: 80px;
+	       		font-size: 60px;
 	       		padding: 25px;
 	     	}
 		}
@@ -30,8 +31,13 @@
 	border: 1px solid orange;
 	margin:5px;
 	flex-direction: column;
+	-webkit-flex-direction: column;
 	background:#fff;
-	display: flex;
+	display: -webkit-box;
+	 display: -moz-box;
+	 display: -ms-flexbox;
+	 display: -webkit-flex;
+	 display: flex;
 	padding: 16px;
 	h4{
 		margin:0;
@@ -62,3 +68,5 @@
 	width: 100%;
 }
 
+
+     

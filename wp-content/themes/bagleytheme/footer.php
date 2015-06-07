@@ -1,5 +1,5 @@
 <footer>
-  <div class="container flexContainer flex">
+  <div class="container flexContainer flex align">
   
     <p>&copy; Nigel Bagley <?php echo date('Y'); ?></p>
      <a href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -13,11 +13,11 @@
     c0.567,0.66,0.913,1.475,0.913,2.443C49.79,44.697,49.52,45.424,48.916,46.084z"/>
   </svg></a>
     <div class="social-icons">
-	    <a href="#"><i class="fa fa-facebook-official fa-2x"></i></a>
-	    <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
-	    <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-	    <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
-	    <a href="#"><i class="fa fa-github-square fa-2x"></i></a>
+	    <a href="https://www.facebook.com/nigel.bagley" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+	    <a href="https://instagram.com/callmenigel/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+	    <a href="https://twitter.com/theycallmenigel" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+	    <a href="https://www.linkedin.com/pub/nigel-bagley/51/936/b62" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+	    <a href="https://github.com/nigelbagley" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
     </div>
  
 
