@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nigel Bagley | Front-End Web Devloper</title>
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+  <script src="http://ajax.googleapis.cjqueryom/ajax/libs//1.11.1/jquery.min.js"></script>
 
 <link href='http://fonts.googleapis.com/css?family=Hind:700,500|Open+Sans:400,600' rel='stylesheet' type='text/css'>
   

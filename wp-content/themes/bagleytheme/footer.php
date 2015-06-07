@@ -32,6 +32,19 @@
  s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
 
+<!-- <script src="js/jquery.smooth-scroll.js"></script> -->
+
+<script>
+  
+
+  $(function() {
+      $('a').smoothScroll({
+          offset: -60, /* adds spacing before the section */
+          speed: 1000, /* ms, smoother the longer the speed */
+          easing: 'swing'
+      });
+</script>
+
 <?php wp_footer(); ?>
 
 </body>
