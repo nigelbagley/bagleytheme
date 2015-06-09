@@ -48,6 +48,7 @@
  	 display: -webkit-flex;
  	 display: flex;
  	align-items:center;
+ 	-webkit-align-items: center;
  	justify-content: space-between;
  	-webkit-justify-content: space-between;
 
@@ -93,7 +94,7 @@
  }
  path:hover{
 
- 	fill:#000000;
+ 	fill:#08616A;
  	transition: all .5s;
  }
 
@@ -103,6 +104,7 @@
 
 .image{
 	position: relative;
+	margin:auto;
 }
 
 .social-icons-top{
@@ -125,7 +127,7 @@
 	}
 }
 .social-icons-top a:hover{
-	color:#fff;
+	color:#46BA94;
 }
 
 span{
@@ -136,7 +138,7 @@ span{
 	background:rgba(179, 180, 180, 0.15);
 }
 .main{
-	margin-top: 124px;
+	// margin-top: 124px;
 	@media screen and (max-width:400px){
 	  margin-top: 97px;
 	}
@@ -164,6 +166,7 @@ span{
 	@media screen and (max-width:800px){
        		flex-direction:column;
        		-webkit-flex-direction: column;
+       		padding:10px;
      	}
 	
 }
@@ -176,26 +179,37 @@ span{
 	}
 }
 .contact-paragraph{
+		width: 50%;
+	  	margin-right: 54px;
+	  	@media screen and (max-width:400px){
+	  		width: 100%;
+	  	}
 	h4{
 		text-transform: uppercase;
 		margin: 0;
+		font-size: 23px;
+		margin-top: 20px;
 		@media screen and (max-width:400px){
        		font-size: 18px;
-			padding: 25px;
+			padding: 10px;
      	}
 	}
 	a{
 		color:#FBAF3C;
+		transition: all .5s;
 		&:hover{
-			color:#000000;
+			color:#08616A;
 		}
 	}
 }
 .fifty{
 		// width: 50%;
+		margin: 0;
+		font-size: 25px;
+		font-family: 'Open Sans',sans-serif;
 		margin:0;
 		@media screen and (max-width:400px){
-       		padding: 25px;
+       		padding: 10px;
        		font-size: 25px;
      	}
 }
@@ -212,11 +226,16 @@ span{
 
 .form{
 	position: relative;
-	right: 46px;
+	right: 0;
+	width: 50%;
+	@media screen and (max-width:800px){
+		width: 100%;
+	}
 	@media screen and (max-width:400px){
        		padding: 7px;
        		position: relative;
        		right: 0;
+       		width: 100%;
      	}
 }
 
@@ -244,3 +263,45 @@ textarea{
 }
 
 // Footer Style Ends
+
+
+// 404 Page Starts
+
+.responsiveImg{
+	background-image: url(img/nigel404.jpg);
+	height: 100vh;
+	background-attachment: fixed;
+	background-attachment: initial;
+	background-size: cover;
+	@media screen and (max-width: 480px) { 
+		background-image: url(img/nigel404Small.jpg);
+		background-attachment: initial;
+		width: 100%;
+	}
+
+}
+.error{
+	position: absolute;
+	top: 137px;
+	width: 39%;
+	@media screen and (max-width: 480px) { 
+		
+		position: absolute;
+		top:0px;
+		width: 80%;
+		margin-left: 20px;	
+	}
+
+	h2{
+		font-size: 122px;
+		margin:0;
+		line-height: 80px;
+		color:#FBAF3C;
+	}
+	p{
+		margin:0;
+	}
+		
+}
+
+// 404 Page Ends

@@ -2,6 +2,10 @@
 	margin-top: 10%;
 	background-size: cover;
 	height: 75vh;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
 	@media screen and (max-width:400px){
        		height:none;
        		background-size: none;

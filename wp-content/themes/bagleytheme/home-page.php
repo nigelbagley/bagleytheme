@@ -5,7 +5,7 @@
 */
 
 get_header();  ?>
-<div class="main">
+<div id="home" class="main">
 
 
 
@@ -14,7 +14,7 @@ get_header();  ?>
   	    <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
   	      
-  	      <section class="wrapperImg">
+  	      <section  class="wrapperImg">
   	      	<div class="about-picture">
   	      		<div class="image">
   	      		<h2><?php the_field('headline') ?></h2>

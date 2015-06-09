@@ -6,8 +6,9 @@ footer{
 .social-icons{
 	a{
 		color:#fff;
+		transition: all .5s;
 		&:hover{
-			color:#000000;
+			color:#08616A;
 		}
 	}
 }

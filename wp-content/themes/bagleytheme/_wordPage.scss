@@ -7,12 +7,12 @@
 
 	align-items:center;
 	// margin-top: 10%;
-	max-width: 50%;
+	width: 50%;
 	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 	@media screen and (max-width:800px){
 	// flex-direction:row;
-	max-width: 100%;
+	width: 100%;
 
 	}
 }
@@ -42,22 +42,24 @@
 	h4{
 		margin:0;
 		padding: 11px;
-		font-size: 23px;
+		font-size: 35px;
 	}
 	p{
-		padding: 11px;
+		padding-left: 11px;
+		padding-bottom: 11px;
 		font-size: 14px;
 		margin:0;
 	}
 	a{
-		background-color: #FBAF3C;
+		background-color: #08616A;
 		padding: 10px;
 		color: #fff;
 		margin-left: 5px;
 		text-align: center;
 		transition: all .5s;
 		&:hover{
-		background: #B3B4B4;
+		background: #FBAF3C;
+		// color:#08616A;
 
 	}
 
